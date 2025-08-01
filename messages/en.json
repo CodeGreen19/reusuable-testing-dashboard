@@ -1,0 +1,8 @@
+{
+
+  "sideBar":{
+    "Home": "Home",
+    "Dashboard":"Dashboard",
+    "Admin":"Admin"
+  }
+}
