@@ -7,13 +7,12 @@ import {
   SelectContent,
   SelectItem,
   SelectTrigger,
-  SelectValue,
 } from "@/components/ui/select";
 import { Locale } from "@/i18n/config";
 import { setUserLocale } from "@/i18n/locale";
 import { SelectIcon } from "@radix-ui/react-select";
 import { Languages } from "lucide-react";
-import React, { useTransition } from "react";
+import { useTransition } from "react";
 
 export default function Navbar() {
   const [_isPending, startTransition] = useTransition();
